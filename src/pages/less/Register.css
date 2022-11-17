@@ -1,0 +1,21 @@
+.register {
+  background-color: #e6e5e1;
+  width: 100vw;
+  height: 100vh;
+}
+.register .register_box {
+  width: 500px;
+  background-color: #576580;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.register .register_box Form {
+  margin: 0px 50px;
+}
+.register .register_box img {
+  display: block;
+  margin: 10px 0px 20px;
+  width: 50%;
+}

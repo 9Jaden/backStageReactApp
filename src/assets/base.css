@@ -1,0 +1,69 @@
+@import "~antd/dist/antd.css";
+body {
+  font-size: 14px;
+  color: #333;
+  font-family: "微软雅黑";
+  background: #efefef;
+}
+#app {
+  height: 100vh;
+  background: #f0f4f5;
+}
+header {
+  height: 70px;
+  background-color: #e6e5e1;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  display: block;
+  height: 70px;
+}
+header .rightMenu {
+  height: 40px;
+}
+header .rightMenu .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+header .rightMenu span {
+  margin: 0 10px;
+}
+header .rightMenu .ant-dropdown-link {
+  display: block;
+  height: 30px;
+  color: #333;
+}
+header .rightMenu .ant-dropdown-link:hover {
+  color: #5962a2;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .aside {
+  width: 200px;
+  height: calc(100vh - 140px);
+}
+.container .container_box {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20px 0px 0px 20px;
+  background-color: #576580;
+  display: flex;
+  flex-direction: column;
+}
+.container .container_box .container_content {
+  height: calc(100vh - 190px);
+  background-color: #e6e5e1;
+}
+footer {
+  height: 70px;
+  background-color: #576580;
+  color: #e6e5e1;
+  text-align: center;
+  line-height: 70px;
+}
